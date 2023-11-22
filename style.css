@@ -1,0 +1,72 @@
+*,*::after,*::before
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: inherit;
+}
+
+html,body
+{
+    height: 100vh;
+}
+
+body
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 1rem;
+}
+
+.counter-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 6px;
+    margin-top: 4px;
+
+}
+
+h1
+{
+    font-size: 3rem;
+}
+
+.calc
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+span
+{
+    color: #fff;
+    background-color: #00bb00;
+    padding: 2px 16px;
+    font-size: 5rem;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 5px;
+}
+
+button
+{
+    font-size: 4rem;
+    background-color: transparent;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+button:hover
+{
+    transform: scale(1.2);
+    transition: transform 1s ease;
+}
